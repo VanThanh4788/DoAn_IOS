@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		662763632A24E42F0034EE4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662763622A24E42F0034EE4F /* AppDelegate.swift */; };
+		662763652A24E42F0034EE4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662763642A24E42F0034EE4F /* ViewController.swift */; };
+		662763682A24E42F0034EE4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662763662A24E42F0034EE4F /* Main.storyboard */; };
+		6627636A2A24E4310034EE4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 662763692A24E4310034EE4F /* Assets.xcassets */; };
+		6627636D2A24E4310034EE4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6627636B2A24E4310034EE4F /* LaunchScreen.storyboard */; };
+		662763782A24E4310034EE4F /* QuanLyCHTLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662763772A24E4310034EE4F /* QuanLyCHTLTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		662763742A24E4310034EE4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 662763572A24E42F0034EE4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6627635E2A24E42F0034EE4F;
+			remoteInfo = QuanLyCHTL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6627635F2A24E42F0034EE4F /* QuanLyCHTL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuanLyCHTL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		662763622A24E42F0034EE4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		662763642A24E42F0034EE4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		662763672A24E42F0034EE4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		662763692A24E4310034EE4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6627636C2A24E4310034EE4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6627636E2A24E4310034EE4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		662763732A24E4310034EE4F /* QuanLyCHTLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuanLyCHTLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		662763772A24E4310034EE4F /* QuanLyCHTLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuanLyCHTLTests.swift; sourceTree = "<group>"; };
+		662763792A24E4310034EE4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6627635C2A24E42F0034EE4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		662763702A24E4310034EE4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		662763562A24E42F0034EE4F = {
+			isa = PBXGroup;
+			children = (
+				662763612A24E42F0034EE4F /* QuanLyCHTL */,
+				662763762A24E4310034EE4F /* QuanLyCHTLTests */,
+				662763602A24E42F0034EE4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		662763602A24E42F0034EE4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6627635F2A24E42F0034EE4F /* QuanLyCHTL.app */,
+				662763732A24E4310034EE4F /* QuanLyCHTLTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		662763612A24E42F0034EE4F /* QuanLyCHTL */ = {
+			isa = PBXGroup;
+			children = (
+				662763622A24E42F0034EE4F /* AppDelegate.swift */,
+				662763642A24E42F0034EE4F /* ViewController.swift */,
+				662763662A24E42F0034EE4F /* Main.storyboard */,
+				662763692A24E4310034EE4F /* Assets.xcassets */,
+				6627636B2A24E4310034EE4F /* LaunchScreen.storyboard */,
+				6627636E2A24E4310034EE4F /* Info.plist */,
+			);
+			path = QuanLyCHTL;
+			sourceTree = "<group>";
+		};
+		662763762A24E4310034EE4F /* QuanLyCHTLTests */ = {
+			isa = PBXGroup;
+			children = (
+				662763772A24E4310034EE4F /* QuanLyCHTLTests.swift */,
+				662763792A24E4310034EE4F /* Info.plist */,
+			);
+			path = QuanLyCHTLTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6627635E2A24E42F0034EE4F /* QuanLyCHTL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6627637C2A24E4310034EE4F /* Build configuration list for PBXNativeTarget "QuanLyCHTL" */;
+			buildPhases = (
+				6627635B2A24E42F0034EE4F /* Sources */,
+				6627635C2A24E42F0034EE4F /* Frameworks */,
+				6627635D2A24E42F0034EE4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuanLyCHTL;
+			productName = QuanLyCHTL;
+			productReference = 6627635F2A24E42F0034EE4F /* QuanLyCHTL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		662763722A24E4310034EE4F /* QuanLyCHTLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6627637F2A24E4310034EE4F /* Build configuration list for PBXNativeTarget "QuanLyCHTLTests" */;
+			buildPhases = (
+				6627636F2A24E4310034EE4F /* Sources */,
+				662763702A24E4310034EE4F /* Frameworks */,
+				662763712A24E4310034EE4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				662763752A24E4310034EE4F /* PBXTargetDependency */,
+			);
+			name = QuanLyCHTLTests;
+			productName = QuanLyCHTLTests;
+			productReference = 662763732A24E4310034EE4F /* QuanLyCHTLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		662763572A24E42F0034EE4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = fit.tdc;
+				TargetAttributes = {
+					6627635E2A24E42F0034EE4F = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					662763722A24E4310034EE4F = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 6627635E2A24E42F0034EE4F;
+					};
+				};
+			};
+			buildConfigurationList = 6627635A2A24E42F0034EE4F /* Build configuration list for PBXProject "QuanLyCHTL" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 662763562A24E42F0034EE4F;
+			productRefGroup = 662763602A24E42F0034EE4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6627635E2A24E42F0034EE4F /* QuanLyCHTL */,
+				662763722A24E4310034EE4F /* QuanLyCHTLTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6627635D2A24E42F0034EE4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6627636D2A24E4310034EE4F /* LaunchScreen.storyboard in Resources */,
+				6627636A2A24E4310034EE4F /* Assets.xcassets in Resources */,
+				662763682A24E42F0034EE4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		662763712A24E4310034EE4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6627635B2A24E42F0034EE4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662763652A24E42F0034EE4F /* ViewController.swift in Sources */,
+				662763632A24E42F0034EE4F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6627636F2A24E4310034EE4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662763782A24E4310034EE4F /* QuanLyCHTLTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		662763752A24E4310034EE4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6627635E2A24E42F0034EE4F /* QuanLyCHTL */;
+			targetProxy = 662763742A24E4310034EE4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		662763662A24E42F0034EE4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				662763672A24E42F0034EE4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6627636B2A24E4310034EE4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6627636C2A24E4310034EE4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6627637A2A24E4310034EE4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6627637B2A24E4310034EE4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6627637D2A24E4310034EE4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuanLyCHTL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tdc.edu.vn.QuanLyCHTL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6627637E2A24E4310034EE4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuanLyCHTL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tdc.edu.vn.QuanLyCHTL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		662763802A24E4310034EE4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuanLyCHTLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tdc.edu.vn.QuanLyCHTLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuanLyCHTL.app/QuanLyCHTL";
+			};
+			name = Debug;
+		};
+		662763812A24E4310034EE4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuanLyCHTLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tdc.edu.vn.QuanLyCHTLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuanLyCHTL.app/QuanLyCHTL";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6627635A2A24E42F0034EE4F /* Build configuration list for PBXProject "QuanLyCHTL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6627637A2A24E4310034EE4F /* Debug */,
+				6627637B2A24E4310034EE4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6627637C2A24E4310034EE4F /* Build configuration list for PBXNativeTarget "QuanLyCHTL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6627637D2A24E4310034EE4F /* Debug */,
+				6627637E2A24E4310034EE4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6627637F2A24E4310034EE4F /* Build configuration list for PBXNativeTarget "QuanLyCHTLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662763802A24E4310034EE4F /* Debug */,
+				662763812A24E4310034EE4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 662763572A24E42F0034EE4F /* Project object */;
+}
